@@ -47,6 +47,7 @@ public class DiceSum extends DieRoll {
         RollResult first = r1.makeRoll();
         RollResult second = r2.makeRoll();
         return first.andThen(second);
+        System.out.println("2");
     }
 
     /**
